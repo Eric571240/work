@@ -16,6 +16,9 @@ public class VisitStatic {
 class A {
     //类变量
     //类变量的访问，必须遵守 相关的访问权限
+    public static void main(String[] args) {
+        System.out.println("hihihi");
+    }
     public static String name = "杨潇";
     //普通属性/普通成员变量/非静态属性/非静态成员变量/实例变量
     private int num = 10;
